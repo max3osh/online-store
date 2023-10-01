@@ -12,6 +12,7 @@ export interface ApplicationConfigInterface {
 
   ROOT_FOLDER_PATH: string;
 
+  JWT_SECRET: string;
   REFRESH_TOKEN_EXPIRATION_DAYS: number;
   JWT_EXPIRATION_TIME_MINUTES: number;
 

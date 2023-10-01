@@ -1,4 +1,4 @@
-export class RegUserResDto {
+export class UserResDto {
   id: string;
   username: string;
   password: string;

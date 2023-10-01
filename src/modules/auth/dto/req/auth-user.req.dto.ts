@@ -1,4 +1,4 @@
-export class RegUserReqDto {
+export class AuthUserReqDto {
   username: string;
 
   password: string;
