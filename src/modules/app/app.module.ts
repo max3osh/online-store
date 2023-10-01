@@ -7,7 +7,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { DatabaseConnection } from 'src/db/database-connection.service';
 import { InitApplicationConfig } from 'src/config';
-import { AuthModule } from '../auth/auth.module';
+import { AuthModule } from '../auth';
+import { UserModule } from '../user';
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import { AuthModule } from '../auth/auth.module';
     }),
     LoggerModule,
     AuthModule,
+    UserModule,
   ],
   controllers: [AppController],
   providers: [AppService],

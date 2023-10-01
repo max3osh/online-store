@@ -20,6 +20,7 @@ export function InitApplicationConfig(): ApplicationConfigInterface {
 
     SALT: parseInt(ENV.SALT),
 
+    JWT_SECRET: ENV.JWT_SECRET,
     REFRESH_TOKEN_EXPIRATION_DAYS: parseInt(ENV.REFRESH_TOKEN_EXPIRATION_DAYS),
     JWT_EXPIRATION_TIME_MINUTES: parseInt(ENV.JWT_EXPIRATION_TIME_MINUTES),
 

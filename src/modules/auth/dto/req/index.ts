@@ -1,1 +1,1 @@
-export * from './reg-user.req.dto';
+export * from './auth-user.req.dto';
